@@ -1,0 +1,80 @@
+* {
+  /* Reset browser's padding and margin */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #4a69bd;
+}
+
+.container {
+  margin: 100px auto;
+  width: 100%;
+  height: 60px;
+}
+
+/* The point of this tutorial is here */
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search-field {
+  width: 500px;
+  padding: 10px 35px 10px 15px;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -33px;
+}
+
+.search-button img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+
+
+.Result {
+  color: white;
+  width: 100%;
+}
+.book-img img {
+  width: 100px;
+  transition:  0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+
+.book-img img:hover {
+  transform: scale(1.1);
+  transition: background-color 0.2s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.table {
+  color: white;
+}
+
+.github-logo img {
+  width: 50px;
+}
+
+.github-logo {
+  position: fixed;
+  margin: 20px;
+  bottom: 0;
+  right: 0;
+  transition:  0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.github-logo:hover {
+  transform: scale(1.1);
+}
