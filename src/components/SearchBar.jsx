@@ -15,7 +15,7 @@ function SearchBar(props) {
   
 
   return (
-    <div class="container">
+    <div className="container">
 
       <div className="book-img">
         <img src={books} alt="Logo" />
@@ -36,15 +36,15 @@ function SearchBar(props) {
         </h3>
       </div>
 
-      <form onSubmit={handleSubmit} class="form mb-3">
+      <form onSubmit={handleSubmit} className="form mb-3">
         <input 
-          class="search-field"
+          className="search-field"
           type="text"
           placeholder="Search"
           value={word}
           onChange={(event) => setWord(event.target.value)}
         />
-        <button type="submit" class="search-button">
+        <button type="submit" className="search-button">
           <img src={logo} alt="Logo" />
         </button>
         {/* <button type="submit" class="btn btn-outline-info">
