@@ -54,7 +54,10 @@ function SearchBar(props) {
       <Result word={word} />
 
       <div className="github-logo">
+      <a href="https://github.com/winslatt/dictionary.english" target="_blank" rel="noopener noreferrer">
       <img src={github} alt="Logo" />
+      </a>
+      
       </div>
     </div>
   );
